@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+body {
+  margin: 0;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
+label, button, .column-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  
+  background-color: #a9bcd0;
+}
+
+.tracker-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+
+  border: 5px solid #373f51;
+  background-color: #58a4b0;
+}
+
+/* form */
+
+.tracker-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.date-box, .distance-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.distance-box, .submit-btn {
+  margin-left: 20px;
+}
+
+.field-title {
+  margin-bottom: 10px;
+}
+
+.field {
+  width: 200px;
+  padding-left: 10px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #373f51;
+  background-color: #ffffff;
+}
+
+.submit-btn {
+  width: 70px;
+  margin-top: 34px;
+  background-color: #daa49a;
+}
+
+.field, .submit-btn {
+  height: 50px;
+
+  border: 5px solid #d8dbe2;
+  border-radius: 10px;
+}
+
+/* table */
+
+.table-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-titles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.title-distance, .title-actions {
+  margin-left: 80px;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #373f51;
+
+  border: 5px solid #d8dbe2;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.track-remove {
+  color: #373f51;
+}
+
